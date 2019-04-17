@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/BezierView" />
+            <option value="$PROJECT_DIR$/PathMeasure" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
