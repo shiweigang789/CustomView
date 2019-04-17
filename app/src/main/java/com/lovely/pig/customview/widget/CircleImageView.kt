@@ -5,13 +5,14 @@ import android.graphics.*
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
+import android.support.v7.widget.AppCompatImageView
 import android.util.AttributeSet
 import com.lovely.pig.customview.R
 
 /**
  * Created by chenxz on 2018/4/22.
  */
-class CircleImageView(context: Context, attrs: AttributeSet) : android.support.v7.widget.AppCompatImageView(context, attrs) {
+class CircleImageView(context: Context, attrs: AttributeSet) : AppCompatImageView(context, attrs) {
 
     private val mType: Int
     private val mBorderColor: Int
